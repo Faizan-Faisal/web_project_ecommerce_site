@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.admin-card {
+  @apply border rounded-lg p-6 text-center font-semibold shadow hover:shadow-lg transition cursor-pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

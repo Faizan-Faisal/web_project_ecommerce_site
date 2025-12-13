@@ -1,4 +1,3 @@
-// src/components/Navbar/Navbar.jsx
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -12,7 +11,16 @@ export default function Navbar() {
         <Link to="/" className="hover:text-green-600">Home</Link>
         <Link to="/products" className="hover:text-green-600">Products</Link>
         <Link to="/cart" className="hover:text-green-600">Cart</Link>
-        <Link to="/login" className="hover:text-green-600 font-semibold">Login</Link>
+        <Link to="/login" className="hover:text-green-600">Login</Link>
+        <Link to="/signup" className="hover:text-green-600">Signup</Link>
+
+        {/* Admin */}
+        <Link
+          to="/admin/login"
+          className="bg-black text-white px-3 py-1 rounded"
+        >
+          Admin
+        </Link>
       </div>
     </nav>
   );

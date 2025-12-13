@@ -4,8 +4,8 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 
 export default function Home() {
   const sampleProducts = [
-    { id: 1, name: "Almonds", price: 1200, img: "/almonds.jpg" },
-    { id: 2, name: "Cashews", price: 1500, img: "/cashews.jpg" },
+    { id: 1, name: "Almonds", price: 1200, img: "/src/assets/images/almonds.jpeg" },
+    { id: 2, name: "Cashews", price: 1500, img: "/frontend/src/assets/images/cashews.jpeg" },
   ];
 
   return (
